@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Color Standards</title>
+  </head>
+  <body>
+    <div class="container" style="margin: 3%;" >
+      <div class="row">
+        <h4 class="" style="margin-left: 5%;">Renk Standartları, Tipografi, Margin ve Padding Kullanımı</h4>
+    <h4 class="" style="margin-left: 2%;">Bootstrap Renk Standartları</h4>
+    <p>Bootstrap temamızı, bileşenlerimizi daha iyi stillendirebilmemiz adına kapsamlı bir renk sistemine sahip. Renk standartları deyince aklımıza belirli renk kullanımları gelebilir fakat direkt renk ataması yapmak yerine Bootstrap anlamlı renk kümelerini içeriyor. Günümüzde Bootstrap kullanılmayan projelerde dahi standart olarak bu yaklaşımı görebiliyoruz.
+     <p>
+       Herhangi bir web sitesini ziyaret ettiğinizde en ön plana çıkan renk, site içerisindeki önemli vurgularda ve kullanıcıyı harekete geçirebilecek dinamikliğin olduğu yerlerde, ana renk olarak görürüz. Ana rengin yanına ek olarak kullanıcıya daha iyi UI/UX tecrübesi sunabilmek için kullanıcıyı site içerisinde yönlendirirken belirli renk seçimleri yaparız. Bootstrap renk standartlarında da bu yapıyı görmek mümkün.
+     </p>
+     <p>
+       Bootstrap tarafından üretilmiş renk şemaları ve örnek kullanımı şu şekilde;
+      </p> 
+     </p>
+    <li><strong>Primary:</strong> Tema ana rengi</li>
+    <li><strong>Secondary:</strong> Temada kullanılacak ikincil renk.</li>
+    <li><strong>Success:</strong> Örnek olarak kullanıcıların bütün gereksinimleri sağladıkları bir formu doldurduktan sonra yeşil renk tonlarını içeren bir mesaj gösterirken kullanabileceğimiz sınıf.</li>
+    <li><strong>Danger:</strong> Success için verdiğimiz örneğin tersi bir durumda kırmızı renk tonlarını içeren bir feedback için kullabileceğimiz sınıf.</li>
+    <li><strong>Warning:</strong> Kullacıların dikkatini çekmek amaçlı kullanılan renk şema sınıfı.</li>
+    <li><strong>Info:</strong> Kullacıların dikkatini çekmek amaçlı kullanılan renk şema sınıfı.</li>
+    <li><strong>Light:</strong> Tema içinde yazılar ve arkaplan renklendirmesi için kullanabileceğimiz renk şema sınıfı.</li>
+    <li><strong>Dark:</strong> Tema içinde yazılar ve arkaplan renklendirmesi için kullanabileceğimiz renk şema sınıfı.</li>
+    <br>
+    <br>
+
+
+      <!--
+    Primary, Secondary, Success, Danger, Warning, Info, Light, Dark
+  -->
+  <p class="text-primary">.text-primary</p>
+  <p class="text-secondary">.text-secondary</p>
+  <p class="text-success">.text-success</p>
+  <p class="text-danger">.text-danger</p>
+  <p class="text-warning bg-dark">.text-warning</p>
+  <p class="text-info bg-dark">.text-info</p>
+  <p class="text-light bg-dark">.text-light</p>
+  <p class="text-dark">.text-dark</p>
+  <p class="text-body">.text-body</p>
+  <p class="text-muted">.text-muted</p>
+  <p class="text-white bg-dark">.text-white</p>
+  <p class="text-black-50">.text-black-50</p>
+  <p class="text-white-50 bg-dark">.text-white-50</p>
+  <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+  <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+  <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+  <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+  <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+  <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+  <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+  <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+  <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+</div>
+<h4 class="" style="margin-left: 5%;">Tipografi</h4>
+    <p>Bir web sitesini ziyaret ettiğinizde karşınıza harfler ve semboller olmadan bir yapı ortaya çıksa ne kadar anlamlı olurdu? Tipografi sadece internet değil hemen hemen bütün iletişim kanallarında başrol oynayan harf ve semboller kullanılarak yapılan bir sanattır.</p>
+    <h4 class="" style="margin-left: 5%;">Başlıklar</h4>
+    <p>Web sitesinin içeriğinde, önem derecesine göre attığımız başlıkları h1 den h6 ya kadar sınıflandırabiliriz. Bootstrap hepsini destekler. En az bir h1 tag'i olması SEO açısından da önemlidir. HTML içerisinde ise başlıkları bu şekilde atabiliriz.</p>
+      <p>
+        <h1>h1 heading</h1>
+        <h2>h2 heading</h2>
+        <h3>h3 heading</h3>
+        <h4>h4 heading</h4>
+        <h5>h5 heading</h5>
+        <h6>h6 heading</h6>
+      </p>
+    <p>Eğer başlık etiketlerinden farklı bir HTML etiketinde, paragraph etiketi gibi(<p>), başlıklardan birinin font stillerini kullanmak isterseniz .h1 den .h6 ya kadar class'lar Bootstrap de mevcut.</p>
+    <p><strong>Örneğin:</strong></p>
+      <p>
+        < p class="h1">content< / p >
+      </p>
+    <p>Yukarıda p etiketi içerisinde yazdıklarımız şekil olarak h1 class'ının biçimini aldı.
+    </p>
+    <h4 class="" style="margin-left: 5%;">Paragraf</h4>
+    <p>Web sitesinde bir içeriğe dikkat çekmek, daha belirgin kılmak için Bootstrap içerisinde var olan utility class'lardan .lead classını kullanabiliriz.</p>
+    <p><strong>Örnek kullanım:</strong></p>
+    <p>< p class="lead">Önemli bir paragraf< / p ></p>
+    <p>Paragrafın font stillendirmesi daha okunabilir ve standart paragrafa göre yazı boyutu daha büyük olacaktır.
+    </p>
+    <h4 class="" style="margin-left: 5%;">Inline HTML</h4>
+    <p>HTML kodlarımızda bazen vurgulamak istediğimiz kelimeleri ve ya bir yazıyı inline elementler ile belirtebiliriz. , kalın ve/ya italic yapmak istersek gibi. Bunu yapmanın bir kaç yolu var tabii ki. Inline elementler kullanarak < strong >< /strong > gibi veya inline element kullanmadan bir stillendirme vererek de bu sonucu elde edebiliriz.</p>
+    <p>
+      < p><mark>Highlight</mark>< /p> <br>
+< p><u>Altı çizili</u>< /p> <br>
+< p><strong>Kalın</strong>< /p> <br>
+< p><em>italic</em>< /p> <br>
+< p><small></small>< /p> <br>
+    </p>
+    <p>Diğer bir çözüm Bootstrap tarafından bize sağlanan class'ları HTML etiketine atamak. Yani .mark .small .text-decoration-underline gibi class'ları etiket içerisinde kullanmak.</p>
+    <p><strong>Örneğin:</strong></p>
+    <p>
+      < p class="mark">Highlight< /p> <br>
+    < p class="text-decoration-underline">Altı çizili< /p> <br>
+    < p class="small">Küçük< /p> <br>
+  </p>
+    <p>Bir kelime bütününü veya cümleyi gerçekten vurgulamak, italic kullanmak, şeklinde kullanıp o yapıya bir anlam yükleyecek isek tercihen HTML tag'lerini kullanmak önemlidir. Bu şekilde Ekran okuyuculara bu anlamı belirtmiş olur ve en önemlisi engeli olan ve interneti kullanan bireylere de bu mesajı vermiş oluruz.</p>
+    <h4 class="" style="margin-left: 5%;">Listeler</h4>
+    <p>Bootstrap, en çok kullandığımız elementlerden biri olan listeler içinde utility class'lara sahip.</p>
+    <p>
+      < ul class="list-unstyled"> <br>
+        .......... <br>
+        .......... <br>
+      < /ul> <br>
+     < ul class="list-inline"> <br>
+        < li class="list-inline-item"> <br>
+          Lorem Ipsum <br>
+        < /li> <br>
+        .......... <br>
+        .......... <br>
+       </ul> 
+    </p>
+    <p>Yukarıdaki kodu açıklayacak olursak:
+    </p>
+    <li>
+      list-unstyle classı , varsayılan olarak gelen liste stillendirmesini ve margin-left özeliğini kaldırır.
+    </li>
+    <li>
+      list-inline ve list-inline-item classlarının birlikte kullanımı ile, liste stillendirilmesi kaldırılır ve < li>  taglerinin tek bir satırda, aralarında margin verilmiş şekilde görüntülenmesini sağlar.
+    </li>
+    <br>
+
+    <h4 class="" style="margin-left: 5%;">Margin ve Padding Kullanımı</h4>
+    <p>Bootstrap, margin ve padding kullanımı için basit ve geniş class'lara sahip. Kullanıma geçmeden önce class'ların gösterimi için kullanılan harflerin ne anlama geldiğini ve Bootstrap'in kullandığı default boşluk değerlerine bakalım.</p>
+    <li>m-: ile başlayan class'lar margini temsil eder.</li>
+    <li>p- ile başlayan class'lar paddingi temsil eder.</li>
+    <br>
+    <h4 class="" style="margin-left: 5%;">Yönler</h4>
+    <li>t: margin-top ve/ya padding-top için,</li>
+    <li>b: margin-bottom ve/ya padding-bottom için,</li>
+    <li>s: soldan sağa, margin-left ve/ya padding-left, sağdan sola margin-right ve/ya padding-right için,</li>
+    <li>e: soldan sağa, margin-right ve/ya padding-right, sağdan sola margin-left ve/ya padding-left için,</li>
+    <li>x: margin ve paddingi x-ekseni doğrultusunda vermek için,</li>
+    <li>y: margin ve paddingi y-ekseni doğrultusunda vermek için,</li>
+    <li>Bu harfleri kullanmayı "m" ve/ya "p" yi yalnız kullandığımızda her 4 taraf için de aynı değeri veririz.</li>
+    <br>
+    <h4 class="" style="margin-left: 5%;">Boşluk büyüklüğü</h4>
+    <li>0:margin ve/ya padding sıfırlar.</li>
+    <li>1: varsayılan olarak, margin ve/ya padding değerinde 0.25 çarpanını kullanır.</li>
+    <li>2: varsayılan olarak, margin ve/ya padding değerinde 0.5 çarpanını kullanır.</li>
+    <li>3: varsayılan olarak, margin ve/ya padding değerinde 1 çarpanını kullanır.</li>
+    <li>4: varsayılan olarak, margin ve/ya padding değerinde 1.5 çarpanını kullanır.</li>
+    <li>5: varsayılan olarak, margin ve/ya padding değerinde 3 çarpanını kullanır.</li>
+    <li>auto: margin ve/ya padding değerine auto ataması yapar.</li>
+    <br>
+    <p><strong>Örnek kullanım:</strong></p>
+    <p>
+      < div class="mt-4"> <br>
+        Lorem ipsum <br>
+      < /div> <br>
+    </p>
+    <p>Yukarıdaki örnekte margin-topyerine geçen class kullanılmıştır ve kutumuzun üst kısmına 4 büyüklüğünde pay bırakmıştır.</p>
+    <h4 class="" style="margin-left: 5%;">Yatayda Ortalama</h4>
+    <p>Yukarıdakilere ek olarak yatayda bir elementi tam olarak merkeze alabilmek için Bootstrap .mx-auto class'ını içerir. Bu classın işlevini yerine getirebilmesi için elementin genişliğinin verilmiş olması gerekir.</p>
+    <p>
+      < div class="mx-auto" style="width: 200px;"> <br>
+      Yatayda ortalanmış element <br>
+    < /div> <br>
+  </p>
+    <p><strong>Uyarı:</strong>Bu kullanım için bir genişlik ataması yapmazsak doğru çalışmayacaktır!</p>
+
+</div>
+
+    
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
